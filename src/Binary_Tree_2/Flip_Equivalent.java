@@ -35,8 +35,8 @@ public class Flip_Equivalent {
 			if (node1 == null || node2 == null) {
 				return false;
 			}
-			if (node1.val == node2.val) {
-				return true;
+			if (node1.val != node2.val) {
+				return false;
 			}
 			boolean flip = flipEqual(node1.left, node2.right) && flipEqual(node1.right, node2.left);
 			boolean equal = flipEqual(node1.left, node2.left) && flipEqual(node1.right, node2.right);
