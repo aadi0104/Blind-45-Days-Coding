@@ -3,7 +3,7 @@ package Binary_Tree_1;
 import java.util.*;
 
 //94. Binary Tree Inorder Traversal
-public class Binary_Tree_Postorder_Tranversal {
+public class Binary_Tree_Inorder_Tranversal {
 
 	public class TreeNode {
 		int val;
@@ -25,19 +25,19 @@ public class Binary_Tree_Postorder_Tranversal {
 	}
 
 	class Solution {
-		public List<Integer> postorderTraversal(TreeNode root) {
+		public List<Integer> inorderTraversal(TreeNode root) {
 			List<Integer> ans = new ArrayList<>();
-			postOrder(root, ans);
+			inOrder(root, ans);
 			return ans;
 		}
 
-		public void postOrder(TreeNode node, List<Integer> ans) {
+		public void inOrder(TreeNode node, List<Integer> ans) {
 			if (node == null) {
 				return;
 			}
-			postOrder(node.left, ans);
-			postOrder(node.right, ans);
+			inOrder(node.left, ans);
 			ans.add(node.val);
+			inOrder(node.right, ans);
 		}
 	}
 
