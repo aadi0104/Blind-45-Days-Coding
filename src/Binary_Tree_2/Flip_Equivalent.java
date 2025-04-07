@@ -1,6 +1,6 @@
 package Binary_Tree_2;
 
-// 101. Symmetric Tree
+// 951. Flip Equivalent Binary Trees
 public class Flip_Equivalent {
 
 	public class TreeNode {
