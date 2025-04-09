@@ -1,7 +1,7 @@
 package Linked_List_2;
 
 // 141. Linked List Cycle
-public class Middle_Of_Linked_List {
+public class Linked_List_Cycle {
 
 	public class ListNode {
 		int val;
@@ -20,16 +20,19 @@ public class Middle_Of_Linked_List {
 		}
 	}
 
-	class Solution {
+	public class Solution {
 
-		public ListNode middleNode(ListNode head) {
+		public boolean hasCycle(ListNode head) {
 			ListNode slow = head;
 			ListNode fast = head;
-			while(fast != null && fast.next!=null) {
+			while (fast != null && fast.next != null) {
 				slow = slow.next;
 				fast = fast.next.next;
+				if (slow == fast) {
+					return true;
+				}
 			}
-			return slow;
+			return false;
 		}
 
 	}
