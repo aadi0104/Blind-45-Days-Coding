@@ -46,16 +46,21 @@ public class Implementation_1 {
 			addLast(val);
 		} else {
 			Node nn = new Node();
-			Node temp = head;
-			for (int i = 0; i < idx - 1; i++) {
-				temp = temp.next;
-			}
+			Node temp = getNode(idx - 1);
 			nn.next = temp.next;
 			nn.val = val;
 			temp.next = nn;
 			size++;
 
 		}
+	}
+
+	public Node getNode(int idx) {
+		Node temp = head;
+		for (int i = 0; i < idx; i++) {
+			temp = temp.next;
+		}
+		return temp;
 	}
 
 }

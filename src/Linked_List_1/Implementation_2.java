@@ -30,10 +30,7 @@ public class Implementation_2 {
 			return removeFirst();
 		} else {
 			int val = tail.val;
-			Node temp = head;
-			for (int i = 0; i < size - 2; i++) {
-				temp = temp.next;
-			}
+			Node temp = getNode(size - 1);
 			tail = temp;
 			temp.next = null;
 			size--;
@@ -47,20 +44,22 @@ public class Implementation_2 {
 		} else if (idx == size - 1) {
 			return removeLast();
 		} else {
-			Node temp = head;
-			Node curr = head;
-			for (int i = 0; i < idx - 1; i++) {
-				temp = temp.next;
-			}
-			for (int i = 0; i < idx; i++) {
-				curr = curr.next;
-			}
+			Node temp = getNode(idx - 1);
+			Node curr = getNode(idx);
 			int val = curr.val;
 			temp.next = curr.next;
 			curr.next = null;
 			size--;
 			return val;
 		}
+	}
+
+	public Node getNode(int idx) {
+		Node temp = head;
+		for (int i = 0; i < idx; i++) {
+			temp = temp.next;
+		}
+		return temp;
 	}
 
 }
