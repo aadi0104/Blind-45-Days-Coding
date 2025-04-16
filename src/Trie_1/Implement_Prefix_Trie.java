@@ -2,8 +2,6 @@ package Trie_1;
 
 import java.util.HashMap;
 
-import Trie_1.Trie.Node;
-
 public class Implement_Prefix_Trie {
 
 	class Trie {
