@@ -15,5 +15,5 @@ public class Power_Tail_Recursion {
 		}
 		return pow(num, power - 1, acc * num);
 	}
-
+	
 }
