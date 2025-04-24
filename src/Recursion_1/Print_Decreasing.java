@@ -14,5 +14,5 @@ public class Print_Decreasing {
 		System.out.print(n + ", ");
 		print(n - 1);
 	}
-
+	
 }
