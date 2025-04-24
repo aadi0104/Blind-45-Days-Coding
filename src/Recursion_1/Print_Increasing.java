@@ -14,5 +14,5 @@ public class Print_Increasing {
 		print(n - 1);
 		System.out.print(n + ", ");
 	}
-
+	
 }
