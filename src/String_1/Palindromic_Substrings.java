@@ -36,5 +36,5 @@ public class Palindromic_Substrings {
 		}
 
 	}
-
+	
 }
