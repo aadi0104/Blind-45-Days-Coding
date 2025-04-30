@@ -47,5 +47,5 @@ public class Queue_Circular {
 		size--;
 		return val;
 	}
-
+	
 }
