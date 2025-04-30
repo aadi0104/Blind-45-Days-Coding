@@ -52,5 +52,5 @@ public class Stack_Implementation {
 	public int size() {
 		return idx + 1;
 	}
-
+	
 }
