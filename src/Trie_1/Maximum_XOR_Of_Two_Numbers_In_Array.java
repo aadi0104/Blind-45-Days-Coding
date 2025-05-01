@@ -66,5 +66,5 @@ public class Maximum_XOR_Of_Two_Numbers_In_Array {
 			return ans;
 		}
 	}
-
+	
 }
