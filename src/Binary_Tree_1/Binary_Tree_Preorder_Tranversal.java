@@ -40,5 +40,5 @@ public class Binary_Tree_Preorder_Tranversal {
 			preOrder(node.right, ans);
 		}
 	}
-
+	
 }
