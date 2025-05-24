@@ -40,5 +40,5 @@ public class Binary_Tree_Inorder_Tranversal {
 			inOrder(node.right, ans);
 		}
 	}
-
+	
 }
