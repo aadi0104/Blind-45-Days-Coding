@@ -37,5 +37,5 @@ public class Palindrome_Partitioning {
 		}
 	
 	}
-
+	
 }
