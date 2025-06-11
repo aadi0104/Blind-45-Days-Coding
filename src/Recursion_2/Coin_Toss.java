@@ -17,5 +17,5 @@ public class Coin_Toss {
 		int tail = toss(n - 1, ways + "T");
 		return head + tail;
 	}
-
+	
 }
