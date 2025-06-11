@@ -23,5 +23,5 @@ public class Board_Path {
 		}
 		return ans;
 	}
-
+	
 }
