@@ -33,5 +33,5 @@ public class Middle_Of_Linked_List {
 		}
 
 	}
-
+	
 }
