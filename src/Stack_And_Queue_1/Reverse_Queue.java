@@ -23,5 +23,5 @@ public class Reverse_Queue {
 		reverse(q);
 		q.add(val);
 	}
-	
+
 }
