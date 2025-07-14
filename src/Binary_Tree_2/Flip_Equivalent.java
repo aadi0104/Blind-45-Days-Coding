@@ -44,5 +44,5 @@ public class Flip_Equivalent {
 		}
 
 	}
-
+	
 }
