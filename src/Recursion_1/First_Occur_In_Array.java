@@ -18,5 +18,5 @@ public class First_Occur_In_Array {
 		}
 		return firstOccurence(arr, n, i + 1);
 	}
-	
+
 }
