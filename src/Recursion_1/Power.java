@@ -15,5 +15,5 @@ public class Power {
 		}
 		return num * pow(num, power - 1);
 	}
-
+	
 }
