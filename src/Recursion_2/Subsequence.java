@@ -18,5 +18,5 @@ public class Subsequence {
 		int inc = subseq(ques.substring(1), ans + ch);
 		return exc + inc;
 	}
-	
+
 }
