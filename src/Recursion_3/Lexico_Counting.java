@@ -30,5 +30,5 @@ public class Lexico_Counting {
 	    }
 
 	}
-	
+
 }
