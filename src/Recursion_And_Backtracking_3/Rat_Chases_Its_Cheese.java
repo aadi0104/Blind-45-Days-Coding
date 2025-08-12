@@ -57,5 +57,5 @@ public class Rat_Chases_Its_Cheese {
 			System.out.println();
 		}
 	}
-
+	
 }
