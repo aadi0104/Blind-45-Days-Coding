@@ -48,5 +48,5 @@ public class Word_Search {
 		String word = "ABCCED";
 		s.exist(board, word);
 	}
-
+	
 }
