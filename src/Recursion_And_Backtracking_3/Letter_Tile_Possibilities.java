@@ -38,5 +38,5 @@ public class Letter_Tile_Possibilities {
 		int ans = s.numTilePossibilities(tiles);
 		System.out.print(ans);
 	}
-
+	
 }
